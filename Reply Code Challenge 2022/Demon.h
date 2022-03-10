@@ -7,14 +7,17 @@ class Demon
 {
 	public:
 		Demon();
-		Demon(int sc, int tn, int sr, int ft, std::vector<int> fn);
+		Demon(int n, int sc, int tn, int sr, int ft, std::vector<int> fn);
 		~Demon();
+		int getId();
 		int getTurns();
 		int getStaminaCost();
 		int getStaminaRecovered();
 		int getFragmentsTurn();
 		std::vector<int> getFragmentsNumber();
+		double getScore(int total_turns, int current_turn);
 	private:
+		int id;
 		int staminaCost;
 		int turnsNumber;
 		int staminaRecovered;
