@@ -8,6 +8,7 @@ class Pandora {
 	int Turns;
 	public:
 	Pandora(int currentStamina, int maxStamina, int Turns);
+	int setCurrentStamina(int stamina);
 	int getCurrentStamina(void);
 	int getMaxStamina(void);
 	int getTurns(void);

@@ -23,6 +23,10 @@ int Pandora::getTurns(void) {
 	return Turns;
 }
 
+int Pandora::setCurrentStamina(int stamina) {
+	currentStamina += stamina;
+}
+
 string Pandora::toString(void) {
 	return "Current stamina: " + to_string(getCurrentStamina()) + 
 			" Max stamina: " + to_string(getMaxStamina()) + 
