@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Demon.cpp" />
+    <ClCompile Include="Pandora.cpp" />
     <ClCompile Include="Reply Code Challenge 2022.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demon.h" />
+    <ClInclude Include="Pandora.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
