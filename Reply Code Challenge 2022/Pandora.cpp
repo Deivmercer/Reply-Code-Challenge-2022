@@ -23,7 +23,7 @@ int Pandora::getTurns(void) {
 	return Turns;
 }
 
-int Pandora::setCurrentStamina(int stamina) {
+void Pandora::setCurrentStamina(int stamina) {
 	currentStamina += stamina;
 }
 
